@@ -108,8 +108,7 @@ artifacts:
 ## Testing, code signing and publishing an iOS app
 
 To test, code sign and publish an iOS app:
-
-* The code for testing an iOS app also goes under `scripts`, before build commands. An example for testing an iOS app can be found [here](../testing-yaml/testing/#native-ios).
+* The code for testing an iOS app also goes under `scripts`, before build commands. An example for testing an iOS app can be found [here](../tyaml-testing/testing/#native-ios).
 * All iOS applications need to be signed before release. A full example of iOS code singing with YAML is available [here](../code-signing-yaml/signing-ios).
 * All generated artifacts can be published to external services. Script examples are available under the [Publishing section](../publishing-yaml/distribution/).
 
